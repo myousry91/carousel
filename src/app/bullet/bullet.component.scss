@@ -7,7 +7,7 @@
   text-align: center;;
 }
 
-.pin {
+.bullet {
   display: inline-block;
 
   span {
@@ -22,7 +22,7 @@
 
   &.active {
     span {
-      background-image: linear-gradient(#54c0e9, #0da6e0);
+      background-image: linear-gradient($background-color-bullet-inner, $background-color-bullet-outter);
     }
   }
 }

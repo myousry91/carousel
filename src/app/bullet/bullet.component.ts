@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 import { Slide } from '../provider/slide';
 
 @Component({
-  selector: 'app-pins',
+  selector: 'app-bullet',
   templateUrl: './bullet.component.html',
   styleUrls: ['./bullet.component.scss']
 })
